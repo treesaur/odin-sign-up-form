@@ -1,0 +1,110 @@
+:root {
+  color: white;
+  background-color: rgba(51, 2, 2, 0.589);
+}
+
+body {
+  margin: 0; /* Note: Causes entire page to have no margin so that inner elements can fill the entire page.*/
+  padding: 0;
+}
+
+/* ------Left Side------ */
+
+.leftside {
+  position: relative;
+  width: 40%;
+  float: left;
+  height: 100vh;
+  background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+}
+
+  /* Sidebar */
+
+  .norse {
+    font-family: 'norsebold', sans-serif;
+    color: white;
+    font-size: 90px;
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    background-color: #0000005d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar img {
+    height: 110px;
+  }
+
+/* ------Right Side----- */
+
+.rightside {
+  position: relative;
+  width: 60%;
+  float: right;
+  background-color: black;
+  height: 100vh;
+}
+
+  /* Intro */
+
+  .intro {
+    padding: 25px 75px 25px 25px; /* padding: top right bottom left */
+  }
+
+  .intro > p {
+    margin-right: 250px;  
+  }
+
+  /* Info */
+
+  .info {
+    background-color: rgb(32, 3, 3);
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 3px;
+  }
+
+  .formrow {
+    display: flex; /* Note: Displays each 'formrow' class in a separate row */
+  }
+
+  .field {
+    margin-right: 50px;
+    margin-top: 12px;
+  }
+
+  label, input {
+    display: block; /* Note: Allows label text content to appear above input box (i.e., "First name" above input box) */
+  }
+
+  label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+
+  input {
+    border: 1px solid #E5E7EB;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 185px;
+  }
+
+  /* Bottom */
+
+  .bottom {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
